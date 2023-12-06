@@ -1,0 +1,38 @@
+body {
+    background-color: crimson;
+    text-align: center;
+    line-height: 33px;
+    animation-name: background;
+    animation-duration: 10s;
+}
+
+.F {
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.2;
+}
+
+.G {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.2;
+} 
+
+img {
+    width: 255px;
+}
+
+div.letras:hover > h1{
+    color: whitesmoke;
+    opacity: 1;
+}
+@keyframes background {
+    0% {background-color: crimson;}
+    16% {background-color: lightskyblue;}
+    32% {background-color: orange;}
+    50% {background-color: turquoise;}
+    67% {background-color: teal;}
+    100% {background-color: yellowgreen;}
+}
